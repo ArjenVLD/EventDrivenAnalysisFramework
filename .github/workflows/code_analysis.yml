@@ -55,7 +55,7 @@ jobs:
       #    project uses a compiled language
 
       - run: |
-           mvn build
+           mvn compile
            
 
       - name: Perform CodeQL Analysis
